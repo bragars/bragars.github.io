@@ -1,0 +1,15 @@
+#Work {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Work-Link {
+    font-weight: 300;
+}
+
+.Work-Icon {
+    height: 60px;
+    width:  60px;
+    margin-left: 2rem;
+}

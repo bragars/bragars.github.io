@@ -1,0 +1,78 @@
+.Box{
+    padding: 80px 60px;
+    background: black;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+}
+  
+@media (max-width: 1000px) {
+    .Box {
+        padding: 70px 30px;
+    }
+}
+
+.Footer-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* max-width: 1000px; */
+    margin: 2rem;
+}
+
+@media (max-width: 1000px) {
+    .Row {
+        grid-template-columns: repeat(auto-fill, 
+                               minmax(200px, 1fr));
+    }
+}
+
+#Footer-Link {
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+   
+#Footer-Link:hover {
+    color: rgb(63, 59, 59);
+    text-decoration: underline;
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+}
+
+.Icon {
+    height: 60px;
+    width:  60px;
+    margin-left: 2rem;
+}
+
+.Footer-Links {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    display: flex; 
+    width: 100%;
+    align-items: center;
+}
+
+.Footer-Logo {
+    height: 60px;
+    width:  60px;
+    margin-right: 1rem;
+}
+
+.Footer-Logo-Name {
+    height: 100px;
+    width:  130px;
+    margin-right: 1rem;
+}
+
+.Footer-Brand {
+    display: flex;
+    justify-content: center;
+}
