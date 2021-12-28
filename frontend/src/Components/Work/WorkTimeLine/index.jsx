@@ -1,5 +1,8 @@
 import { Container, Row } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
+import veterinarianProject from "./images/veterinarianProject.png";
+import pokemonsProject from "./images/pokemonsProject.png";
+import dividaoImage from "./images/dividaoImage.png";
 import './styles.css';
 
 const WorkTimeLine = () => {
@@ -10,20 +13,32 @@ const WorkTimeLine = () => {
         url: "https://github.com/bragars/Python-Project",
         cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..", 
         cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
-        // media: {
-        //   type: "IMAGE",
-        //   source: {
-        //     url: "http://someurl/image.jpg"
-        //   }
-        // }
+        media: {
+          type: "IMAGE",
+          source: {
+            url: `${veterinarianProject}`
+          }
+        }
       },
       { 
         title: "Full Stack Project/React/ROR", cardTitle:  "PetGato", 
         url: "https://github.com/bragars/PetGato-FrontEnd",
+        media: {
+          type: "IMAGE",
+          source: {
+            url: `${pokemonsProject}`
+          }
+        }
       },
       { 
         title: "Full Stack Project/React/ROR", cardTitle:  "Pokemons",
         url: "https://github.com/bragars/Pokemons",
+        media: {
+          type: "IMAGE",
+          source: {
+            url: `${pokemonsProject}`
+          }
+        }
       },
       { 
         title: "Full Stack Project/Vue/ROR", cardTitle:  "Covid-Project",
@@ -32,6 +47,12 @@ const WorkTimeLine = () => {
       {
         title: "FrontEnd", cardTitle:  "DiviDao",
         url: "https://divi-dao.web.app/",
+        media: {
+          type: "IMAGE",
+          source: {
+            url: `${dividaoImage}`
+          }
+        }
       },
     ];
 
@@ -48,11 +69,12 @@ const WorkTimeLine = () => {
           items={ items }
           mode="VERTICAL_ALTERNATING"
         >
-          <div>
-            <p>Made for the veterian course</p>
-          </div>
-          <div>
-            <img src="<url to  a nice image" />
+          <div className="chrono-icons">
+            <img src="/images/logo.png" alt="image1" />
+            <img src="/images/logo.png" alt="image2" />
+            <img src="/images/logo.png" alt="image2" />
+            <img src="/images/logo.png" alt="image2" />
+            <img src="/images/logo.png" alt="image2" />
           </div>
         </Chrono>
       </div>
