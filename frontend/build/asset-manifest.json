@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.081f5881.css",
+    "main.js": "/static/js/main.b17e29df.js",
+    "static/js/787.774729bc.chunk.js": "/static/js/787.774729bc.chunk.js",
+    "static/media/dividaoImage.png": "/static/media/dividaoImage.c62e7b5a4a66e6cd62c4.png",
+    "static/media/suit.png": "/static/media/suit.8d203d25da3ca43931f5.png",
+    "static/media/pokemonsProject.png": "/static/media/pokemonsProject.84f07485926a9dbe854c.png",
+    "static/media/veterinarianProject.png": "/static/media/veterinarianProject.2029c78be8cf14bc5e98.png",
+    "index.html": "/index.html",
+    "main.081f5881.css.map": "/static/css/main.081f5881.css.map",
+    "main.b17e29df.js.map": "/static/js/main.b17e29df.js.map",
+    "787.774729bc.chunk.js.map": "/static/js/787.774729bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.081f5881.css",
+    "static/js/main.b17e29df.js"
+  ]
+}
