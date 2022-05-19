@@ -26,7 +26,7 @@ const ExperienceTimeLine = () => {
       cardDetailedText: "- Using Git Flow, managing part of infrastructure, using pipelines, triggers to deploy tags, build images to Dev(Homologation) and Master(Production). -Sustainable testing approach using Rspec, Factories and Jest giving integrity to the project. - Debugging and Problem solving. - Skills worked: Ruby on Rails, VueJs, Docker, OracleDB, Sidekiq, TDD, Sidekiq, Jobs, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers.",
     },
     {
-      title: "Apr 21 – Present",
+      title: "Apr 21 – Oct 21",
       cardTitle: "Spezi Technology | PROJECT MANAGER | Full-time",
       url: "http://www.spezi.com.br/",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",

@@ -1,7 +1,9 @@
 import { Container, Row } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
 import veterinarianProject from "./images/veterinarianProject.png";
+import petGatoProject from "./images/cat.png";
 import pokemonsProject from "./images/pokemonsProject.png";
+import covidProject from "./images/Covid.png";
 import dividaoImage from "./images/dividaoImage.png";
 import './styles.css';
 
@@ -26,7 +28,7 @@ const WorkTimeLine = () => {
         media: {
           type: "IMAGE",
           source: {
-            url: `${pokemonsProject}`
+            url: `${petGatoProject}`
           }
         }
       },
@@ -43,6 +45,12 @@ const WorkTimeLine = () => {
       { 
         title: "Full Stack Project/Vue/ROR", cardTitle:  "Covid-Project",
         url: "https://github.com/bragars/Projeto-Covid-BackEnd",
+        media: {
+          type: "IMAGE",
+          source: {
+            url: `${covidProject}`
+          }
+        },
       },
       {
         title: "FrontEnd", cardTitle:  "DiviDao",
