@@ -1,12 +1,13 @@
+import React from 'react'
 import { Container, Col, Row } from 'react-bootstrap';
-import image from "./image/suit.png";
+// import image from "./image/suit.png";
 import './styles.css';
 
 const About = () => {
   return (
     <Container>
       <h1 id="About"> About </h1>
-      <Row style={{ backgroundImage:`url(${image})`, backgroundRepeat:"no-repeat", width: "100%", height: "40rem"}}>
+      {/* <Row style={{ backgroundImage:`url(${image})`, backgroundRepeat:"no-repeat", width: "100%", height: "40rem"}}> */}
         <Col className="col-9"></Col>
         <Col className="col-3">
           <Row className="mb-5"></Row>

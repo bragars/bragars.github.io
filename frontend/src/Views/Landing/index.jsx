@@ -1,6 +1,7 @@
+import React from 'react'
 import { Nav, Container, Row } from 'react-bootstrap';
 import Work from '../Work';
-import About from '../About';
+// import About from '../About';
 import './styles.css';
 
 const Landing = () => {
@@ -15,7 +16,7 @@ const Landing = () => {
           </Nav>
         </div>
         <Work />
-        <About />
+        {/* <About /> */}
       </Row>
 		</Container>
 	);

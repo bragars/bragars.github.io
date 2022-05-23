@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Row } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
 import './styles.css';

@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Row } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
 import veterinarianProject from "./images/veterinarianProject.png";
@@ -13,8 +14,8 @@ const WorkTimeLine = () => {
         title: "Full Stack Project/Python", 
         cardTitle:  "Veterinarian Project",
         url: "https://github.com/bragars/Python-Project",
-        cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..", 
-        cardDetailedText: "Men of the British Expeditionary Force (BEF) wade out to..",
+        cardSubtitle:"Project made for register all the models suggested by the client", 
+        cardDetailedText: "Made exclusively for UnB veterinarian course",
         media: {
           type: "IMAGE",
           source: {
@@ -25,6 +26,8 @@ const WorkTimeLine = () => {
       { 
         title: "Full Stack Project/React/ROR", cardTitle:  "PetGato", 
         url: "https://github.com/bragars/PetGato-FrontEnd",
+        cardSubtitle:"Project made for every person who loves pets", 
+        cardDetailedText: "Check all pieces of information that your pet need",
         media: {
           type: "IMAGE",
           source: {
@@ -35,6 +38,8 @@ const WorkTimeLine = () => {
       { 
         title: "Full Stack Project/React/ROR", cardTitle:  "Pokemons",
         url: "https://github.com/bragars/Pokemons",
+        cardSubtitle:"Project to favorite every pokemon that you like, providing pieces of information and each skill.", 
+        cardDetailedText: "Everyone who loves Pokemons can enjoy",
         media: {
           type: "IMAGE",
           source: {
@@ -45,6 +50,8 @@ const WorkTimeLine = () => {
       { 
         title: "Full Stack Project/Vue/ROR", cardTitle:  "Covid-Project",
         url: "https://github.com/bragars/Projeto-Covid-BackEnd",
+        cardSubtitle:"Project to view statistics about Covid in Brazil", 
+        cardDetailedText: "Number of deaths, cases, suspects in each State",
         media: {
           type: "IMAGE",
           source: {
@@ -55,6 +62,8 @@ const WorkTimeLine = () => {
       {
         title: "FrontEnd", cardTitle:  "DiviDao",
         url: "https://divi-dao.web.app/",
+        cardSubtitle:"Digitizing real estate to enable efficiencies", 
+        cardDetailedText: "Creating a real estate exchange.",
         media: {
           type: "IMAGE",
           source: {
