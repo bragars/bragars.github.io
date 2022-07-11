@@ -11,8 +11,8 @@ const Landing = () => {
         <div className="Landing">
           <h1 className="Landing-Title"> HI, I’m Pedro a Web Developer </h1>
           <Nav className="Landing-Links">
-            <Nav.Link id="Landing-Link" href="#Work"> Work </Nav.Link>
-            <Nav.Link id="Landing-Link" href="#About"> About </Nav.Link>
+            <Nav.Link id="Landing-Link" href="#Work">  Work </Nav.Link>
+            <Nav.Link id="Landing-Link" href="#Experience"> Experience </Nav.Link>
           </Nav>
         </div>
         <Work />

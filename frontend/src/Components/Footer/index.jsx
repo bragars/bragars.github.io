@@ -1,7 +1,6 @@
 import React from "react";
-import { Row, Container, Col, Nav } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import myIcon from './Images/default-monochrome.svg';
+import { Row, Container, Nav } from 'react-bootstrap';
+import Logo from './Images/SvgDefaultMonochrome';
 import './styles.css'
   
 const Footer = () => {
@@ -10,15 +9,17 @@ const Footer = () => {
       <Container className="Footer-Container">
         <Row id="Contact" className="mb-3">
           <div className="Footer-Brand">
-            <img src={myIcon} width="400" alt="icon" />
+            <a href="#Contact">
+              <Logo width={400} />
+            </a>
           </div>
         </Row>
         <Row className="mb-3">
           <Nav className="Footer-Links">
-            <Nav.Link id="Footer-Link" href="#Home"> Home </Nav.Link>
-            <Nav.Link id="Footer-Link" href="#Contact"> Contact </Nav.Link>
+            <Nav.Link id="Footer-Link" href="#Home">       Home       </Nav.Link>
+            <Nav.Link id="Footer-Link" href="#Contact">    Contact    </Nav.Link>
             <Nav.Link id="Footer-Link" href="#Experience"> Experience </Nav.Link>
-            <Nav.Link id="Footer-Link" href="#Work"> Portfolio </Nav.Link>
+            <Nav.Link id="Footer-Link" href="#Work">       Portfolio  </Nav.Link>
           </Nav>
         </Row>
         <Row>
@@ -30,9 +31,6 @@ const Footer = () => {
               <img className="Icon" src="/images/githubLogo.png"   alt="Logo"/> 
             </a>
           </div>
-        </Row>
-        <Row>
-          
         </Row>
       </Container>
     </div>

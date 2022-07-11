@@ -1,10 +1,11 @@
 #About {
   margin-top: 10rem;
-  text-align: center; 
+  text-align: center;
 }
 
 .About-Body {
   text-align: justify;
+  font-size: 1.3rem;
 }
 
 .About-Link {

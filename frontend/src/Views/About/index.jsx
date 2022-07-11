@@ -7,15 +7,13 @@ const About = () => {
   return (
     <Container>
       <h1 id="About"> About </h1>
-      {/* <Row style={{ backgroundImage:`url(${image})`, backgroundRepeat:"no-repeat", width: "100%", height: "40rem"}}> */}
-        <Col className="col-9"></Col>
-        <Col className="col-3">
+      <Row >
+        <Col className="col-3"></Col>
+        <Col className="col-6">
           <Row className="mb-5"></Row>
           <Row className="mb-5"></Row>
           <Row className="mb-5"></Row>
-          <Row>
-            <h1 className="About-Link"> Pedro Braga   </h1>
-            <h3 className="About-Link"> Web Developer </h3>
+          <Row className="About-Body">
             <p>
               I am open to change, discovering the new, do things I’ve
               never done. I have a lot of proactivity and fuel to
@@ -25,6 +23,7 @@ const About = () => {
               I'm a visionary, ambitious person with a compound effect vision, working on my ideas and my good habits every day, improving myself every moment.
             </p>
           </Row>
+        <Col className="col-3"></Col>
         </Col>
       </Row>
     </Container>
