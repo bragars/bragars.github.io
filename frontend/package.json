@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://bragars.github.io",
+  "homepage": "https://pedrocodes.me",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@svgr/webpack": "^6.2.1"
+    "@svgr/webpack": "^6.2.1",
+    "gh-pages": "^4.0.0"
   }
 }
