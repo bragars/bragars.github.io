@@ -10,7 +10,11 @@
 }
 
 #Links {
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 4.7rem;
 }
 
 .Link {

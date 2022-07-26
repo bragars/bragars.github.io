@@ -1,12 +1,11 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
 import veterinarianProject from "./images/veterinarianProject.png";
 import petGatoProject from "./images/cat.png";
 import pokemonsProject from "./images/pokemonsProject.png";
 import covidProject from "./images/Covid.png";
 import dividaoImage from "./images/dividaoImage.png";
-import './styles.css';
 
 const WorkTimeLine = () => {
     const items = [
@@ -81,20 +80,26 @@ const WorkTimeLine = () => {
           <a href="https://github.com/bragars"> <img className="Work-Icon" src="/images/gitHubLogoBlack.png" alt="Logo"/> </a>
         </div>
       </Row>
-      <div >
-        <Chrono
-          items={ items }
-          mode="VERTICAL_ALTERNATING"
-        >
-          <div className="chrono-icons">
-            <img src="/images/logo.png" alt="image1" />
-            <img src="/images/logo.png" alt="image2" />
-            <img src="/images/logo.png" alt="image2" />
-            <img src="/images/logo.png" alt="image2" />
-            <img src="/images/logo.png" alt="image2" />
+      <Row>
+        <Col xs={1}></Col>
+        <Col>
+          <div >
+            <Chrono
+              items={ items }
+              mode="VERTICAL_ALTERNATING"
+            >
+              <div className="chrono-icons">
+                <img src="/images/logo.png" alt="image1" />
+                <img src="/images/logo.png" alt="image2" />
+                <img src="/images/logo.png" alt="image2" />
+                <img src="/images/logo.png" alt="image2" />
+                <img src="/images/logo.png" alt="image2" />
+              </div>
+            </Chrono>
           </div>
-        </Chrono>
-      </div>
+        </Col>
+        <Col xs={1}></Col>
+      </Row>
     </Container>
 	);
 }

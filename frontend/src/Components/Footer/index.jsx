@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Container, Nav } from 'react-bootstrap';
+import { Row, Container, Nav, Col } from 'react-bootstrap';
 import Logo from './Images/SvgDefaultMonochrome';
 import './styles.css'
   
@@ -10,17 +10,22 @@ const Footer = () => {
         <Row id="Contact" className="mb-3">
           <div className="Footer-Brand">
             <a href="#Contact">
-              <Logo width={400} />
+              <Logo width={350} />
             </a>
           </div>
         </Row>
-        <Row className="mb-3">
-          <Nav className="Footer-Links">
-            <Nav.Link id="Footer-Link" href="#Home">       Home       </Nav.Link>
-            <Nav.Link id="Footer-Link" href="#Contact">    Contact    </Nav.Link>
-            <Nav.Link id="Footer-Link" href="#Experience"> Experience </Nav.Link>
-            <Nav.Link id="Footer-Link" href="#Work">       Portfolio  </Nav.Link>
-          </Nav>
+        <Row>
+          <Col></Col>
+          <Col>
+            <Row xs={4} className="mb-3">
+              <Nav className="Footer-Links">
+                <Nav.Link id="Footer-Link" href="#Home">       Home       </Nav.Link>
+                <Nav.Link id="Footer-Link" href="#Contact">    Contact    </Nav.Link>
+                <Nav.Link id="Footer-Link" href="#Experience"> Experience </Nav.Link>
+                <Nav.Link id="Footer-Link" href="#Work">       Portfolio  </Nav.Link>
+              </Nav>
+            </Row>  
+          </Col>
         </Row>
         <Row>
           <div className="Icons">
