@@ -7,9 +7,9 @@ const NavBarComponent = () => {
 	return (
 		<div className="App">
 			<Navbar expand="lg">
-				<Container>
+				<Container className="d-grid justify-content-center">
 					<Row>
-						<Col xs={11} lg={2}>
+						<Col className="d-grid justify-content-end" xs={12} lg={2}>
 							<Navbar.Brand>
 								<div className="Brand">
 									<a href="#Home">
@@ -18,7 +18,8 @@ const NavBarComponent = () => {
 								</div>
 							</Navbar.Brand>
 						</Col>
-						<Col className="" xs={1} lg={6} >
+						<Col xs={1} lg={6} >
+							{/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
 							<Navbar.Collapse id="basic-navbar-nav">
 								<Nav id="Links">
 									<Nav.Link className="Link" href="#Home">       Home       </Nav.Link>
@@ -27,7 +28,6 @@ const NavBarComponent = () => {
 									<Nav.Link className="Link" href="#Work">       Portfolio  </Nav.Link>
 								</Nav>
 							</Navbar.Collapse>
-							<Navbar.Toggle aria-controls="responsive-navbar-nav" />
 						</Col>
 					</Row>
 				</Container>
