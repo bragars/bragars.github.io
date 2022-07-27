@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
 import './styles.css';
 
@@ -43,13 +43,19 @@ const ExperienceTimeLine = () => {
           <a href="https://www.linkedin.com/in/pedrobragar/"> <img className="Icon" src="/images/experienceLogo.png" alt="Logo"/> </a>
         </div>
       </Row>
-      <div style={{ display: "flex" }}>
-        <Chrono
-          items={ items }
-          mode="VERTICAL"
-          slideShow
-        />
-      </div>
+      <Row className="justify-content-md-center">
+        <Col xs={1}></Col>
+        <Col>
+          <div style={{ display: "flex" }}>
+            <Chrono
+              items={ items }
+              mode="VERTICAL"
+              slideShow
+            />
+          </div>
+        </Col>
+        <Col xs={1}></Col>
+      </Row>
     </Container>
 	);
 }
