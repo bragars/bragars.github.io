@@ -1,0 +1,39 @@
+#icon {
+  position: relative;
+  animation-name: movement;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0.6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#disappear {
+  -webkit-animation: cssAnimation 0.6s ease-in 3s forwards;
+  -moz-animation: cssAnimation 0.6s ease-in 3s forwards;
+  -o-animation: cssAnimation 0.6s ease-in 3s forwards;
+  animation: cssAnimation 0.6s ease-in 3s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes movement {
+  0%   { left:0px; top:0px;   }
+  50%  { left:0px; top:200px; }
+  100% { left:0px; top:0px;   }
+}
+
+@keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      overflow:hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+      width:0;
+      height:0;
+      visibility:hidden;
+  }
+}
