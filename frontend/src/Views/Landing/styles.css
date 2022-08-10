@@ -9,6 +9,14 @@
     margin: 6rem;
 }
 
+@media (max-width: 760px) {
+    .Landing-Title {
+        font-size: 65px;
+        font-weight: 200;
+        margin: 6rem;
+    }
+}
+
 .Landing-Links {
     display: flex;
     justify-content: space-evenly;
@@ -23,4 +31,8 @@
 
 #Landing-Link:hover {
     color: rgb(102, 102, 102);
+}
+
+.scrollIcon {
+    position: absolute;
 }
