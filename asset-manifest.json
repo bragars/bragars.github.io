@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cca6587.css",
-    "main.js": "/static/js/main.90a3ae5c.js",
-    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "main.css": "/static/css/main.c229d41a.css",
+    "main.js": "/static/js/main.155fddd2.js",
+    "static/js/973.6d78e571.chunk.js": "/static/js/973.6d78e571.chunk.js",
     "static/media/cat.png": "/static/media/cat.13437b36a10691abba33.png",
     "static/media/Covid.png": "/static/media/Covid.f347c85aed4bb488ed0c.png",
     "static/media/dividaoImage.png": "/static/media/dividaoImage.c62e7b5a4a66e6cd62c4.png",
     "static/media/pokemonsProject.png": "/static/media/pokemonsProject.84f07485926a9dbe854c.png",
     "static/media/veterinarianProject.png": "/static/media/veterinarianProject.2029c78be8cf14bc5e98.png",
     "index.html": "/index.html",
-    "main.2cca6587.css.map": "/static/css/main.2cca6587.css.map",
-    "main.90a3ae5c.js.map": "/static/js/main.90a3ae5c.js.map",
-    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
+    "main.c229d41a.css.map": "/static/css/main.c229d41a.css.map",
+    "main.155fddd2.js.map": "/static/js/main.155fddd2.js.map",
+    "973.6d78e571.chunk.js.map": "/static/js/973.6d78e571.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cca6587.css",
-    "static/js/main.90a3ae5c.js"
+    "static/css/main.c229d41a.css",
+    "static/js/main.155fddd2.js"
   ]
 }
