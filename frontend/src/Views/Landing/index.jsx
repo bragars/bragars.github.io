@@ -6,7 +6,7 @@ import ScrollArrow from '../../Components/ScrollArrow';
 import './styles.css';
 
 const Landing = () => {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
 	return (
 		<Container>
@@ -15,7 +15,7 @@ const Landing = () => {
           <div className="scrollIcon">
             {width < 500 && <ScrollArrow />}
           </div>
-          <h1 className="Landing-Title"> HI, I’m Pedro a Web Developer </h1>
+          <h1 className="Landing-Title"> HI, I’m Pedro a Software Enginner </h1>
           <Nav className="Landing-Links">
             <Nav.Link id="Landing-Link" href="#Work">  Work </Nav.Link>
             <Nav.Link id="Landing-Link" href="#Experience"> Experience </Nav.Link>

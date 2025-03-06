@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Row, Col, Navbar, Container, Nav } from 'react-bootstrap';
 import Logo from './Images/SvgDefaultMonochromeBlack';
 import './styles.css';
 

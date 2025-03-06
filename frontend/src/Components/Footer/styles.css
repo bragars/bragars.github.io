@@ -1,11 +1,11 @@
-.Box{
-    padding: 80px 60px;
+.Box {
+    padding: 0;
     background: black;
     bottom: 0;
     display: flex;
     width: 100%;
     position: relative;
-    margin-top: 3rem;
+    margin: 0;
 }
   
 @media (max-width: 1000px) {
@@ -61,8 +61,8 @@
 }
 
 .Footer-Logo {
-    height: 60px;
-    width:  60px;
+    height: 30px;
+    width:  30px;
     margin-right: 1rem;
 }
 

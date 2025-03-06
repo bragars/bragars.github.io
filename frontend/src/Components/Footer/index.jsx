@@ -20,7 +20,6 @@ const Footer = () => {
             <Row xs={4} className="mb-3">
               <Nav className="Footer-Links">
                 <Nav.Link id="Footer-Link" href="#Home">       Home       </Nav.Link>
-                <Nav.Link id="Footer-Link" href="#Contact">    Contact    </Nav.Link>
                 <Nav.Link id="Footer-Link" href="#Experience"> Experience </Nav.Link>
                 <Nav.Link id="Footer-Link" href="#Work">       Portfolio  </Nav.Link>
               </Nav>
