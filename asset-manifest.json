@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.c229d41a.css",
-    "main.js": "/static/js/main.155fddd2.js",
-    "static/js/973.6d78e571.chunk.js": "/static/js/973.6d78e571.chunk.js",
-    "static/media/cat.png": "/static/media/cat.13437b36a10691abba33.png",
+    "main.css": "/static/css/main.f5cddbf4.css",
+    "main.js": "/static/js/main.346a1ff8.js",
+    "static/js/787.cda612ba.chunk.js": "/static/js/787.cda612ba.chunk.js",
+    "static/media/competitive_programming.jpg": "/static/media/competitive_programming.8d7db7a272551fdaff35.jpg",
     "static/media/Covid.png": "/static/media/Covid.f347c85aed4bb488ed0c.png",
+    "static/media/cryptography.jpg": "/static/media/cryptography.b4263a2bdf450901b773.jpg",
     "static/media/dividaoImage.png": "/static/media/dividaoImage.c62e7b5a4a66e6cd62c4.png",
+    "static/media/adotar_feed.png": "/static/media/adotar_feed.ebca1a8e4b92f4e1e467.png",
+    "static/media/hackatruck_home.png": "/static/media/hackatruck_home.0949a701b4a57ca33703.png",
+    "static/media/exameProject.png": "/static/media/exameProject.98eb0fadc3380e7ae01a.png",
     "static/media/pokemonsProject.png": "/static/media/pokemonsProject.84f07485926a9dbe854c.png",
-    "static/media/veterinarianProject.png": "/static/media/veterinarianProject.2029c78be8cf14bc5e98.png",
+    "static/media/veterinarian.png": "/static/media/veterinarian.53b13685a2998e967b4b.png",
+    "static/media/javaFx.png": "/static/media/javaFx.e5ce060bb4e7f58cb4a5.png",
+    "static/media/chatBotImage.png": "/static/media/chatBotImage.b520d1383c157ef50e09.png",
+    "static/media/simulator_home.png": "/static/media/simulator_home.783da586f87abc6f0ec8.png",
+    "static/media/agroorganico.png": "/static/media/agroorganico.b3c5d66126f641cddb9b.png",
     "index.html": "/index.html",
-    "main.c229d41a.css.map": "/static/css/main.c229d41a.css.map",
-    "main.155fddd2.js.map": "/static/js/main.155fddd2.js.map",
-    "973.6d78e571.chunk.js.map": "/static/js/973.6d78e571.chunk.js.map"
+    "main.f5cddbf4.css.map": "/static/css/main.f5cddbf4.css.map",
+    "main.346a1ff8.js.map": "/static/js/main.346a1ff8.js.map",
+    "787.cda612ba.chunk.js.map": "/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c229d41a.css",
-    "static/js/main.155fddd2.js"
+    "static/css/main.f5cddbf4.css",
+    "static/js/main.346a1ff8.js"
   ]
 }
