@@ -9,8 +9,8 @@ const Work = () => {
     <Container>
       <Row>
         <Col>
-          <WorkTimeLine />
           <ExperienceTimeLine />
+          <WorkTimeLine />
         </Col>
       </Row>
     </Container>

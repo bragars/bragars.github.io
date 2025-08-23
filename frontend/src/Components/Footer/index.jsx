@@ -21,7 +21,7 @@ const Footer = () => {
               <Nav className="Footer-Links">
                 <Nav.Link id="Footer-Link" href="#Home">       Home       </Nav.Link>
                 <Nav.Link id="Footer-Link" href="#Experience"> Experience </Nav.Link>
-                <Nav.Link id="Footer-Link" href="#Work">       Portfolio  </Nav.Link>
+                <Nav.Link id="Footer-Link" href="#Work">       Projects  </Nav.Link>
               </Nav>
             </Row>  
           </Col>

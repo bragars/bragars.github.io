@@ -25,7 +25,7 @@ const NavBarComponent = () => {
 									<Nav.Link className="Link" href="#Home">       Home       </Nav.Link>
 									<Nav.Link className="Link" href="#Contact">    Contact    </Nav.Link>
 									<Nav.Link className="Link" href="#Experience"> Experience </Nav.Link>
-									<Nav.Link className="Link" href="#Work">       Portfolio  </Nav.Link>
+									<Nav.Link className="Link" href="#Work">       Projects  </Nav.Link>
 								</Nav>
 							</Navbar.Collapse>
 						</Col>

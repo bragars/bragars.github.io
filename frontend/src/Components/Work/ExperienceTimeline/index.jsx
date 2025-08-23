@@ -7,28 +7,49 @@ const ExperienceTimeLine = () => {
     const items = [
     {
       title: "Mar 2020 – Jul 2020",
-      cardTitle: "CJR (Junior Computing Enterprise) | FULL STACK DEVELOPER | Part Time",
+      cardTitle: "FULL STACK DEVELOPER | CJR (Junior Computing Enterprise) | Part Time",
       url: "https://www.cjr.org.br/",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "-Creating REST APIs, sending content by JSON, communicating the logical application with interface of projects. - Creation of interface prototypes using Figma, DB prototypes with DBrowser for SQLite. Skills worked: Ruby on Rails, ReactJs, React Native, PostGres, Postman, Dbeaver",
     },
     {
       title: "Aug 2020 – Nov 2020",
-      cardTitle: "Spezi Technology | SALES ADVISOR | Part Time",
+      cardTitle: "SALES ADVISOR | CJR (Junior Computing Enterprise) | Part Time",
       url: "http://www.spezi.com.br/",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "- Requirement Analyst and Sales Advisor. - Creation of proposals and contracts. - Meetings with clients making sales funnel. - I sold one project with the value of R$ 30.000, 00. Skills worked: Sales, Ruby on Rails, ReactJs, React Native, PostGres, Postman, Dbeaver",
     },
     {
       title: "Nov 2020– Apr 2021",
-      cardTitle: "Spezi Technology | FULL STACK DEVELOPER | Full-time",
+      cardTitle: "FULL STACK DEVELOPER | Spezi Technology | Full-time",
       url: "http://www.spezi.com.br/",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "- Using Git Flow, managing part of infrastructure, using pipelines, triggers to deploy tags, build images to Dev(Homologation) and Master(Production). -Sustainable testing approach using Rspec, Factories and Jest giving integrity to the project. - Debugging and Problem solving. - Skills worked: Ruby on Rails, VueJs, Docker, OracleDB, Sidekiq, TDD, Sidekiq, Jobs, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers.",
     },
     {
-      title: "Apr 21 – Oct 21",
-      cardTitle: "Spezi Technology | PROJECT MANAGER | Full-time",
+      title: "Apr 2021 – Nov 2021",
+      cardTitle: "PROJECT MANAGER | Spezi Technology | Full-time",
+      url: "http://www.spezi.com.br/",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+    },
+    {
+      title: "Jul 2022 – Dec 2022",
+      cardTitle: "ETL DEVELOPER (Exchange) | Via Consulting S.A (Lisboa) | Full-time",
+      url: "http://www.spezi.com.br/",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+    },
+    {
+      title: "Feb 2024 – Feb 2025",
+      cardTitle: "INTERN DEVELOPER | UE Brasil Tecnologia | Part-time",
+      url: "http://www.spezi.com.br/",
+      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
+      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+    },
+    {
+      title: "Feb 2024 – Aug 2025",
+      cardTitle: "RESEARCHER DEVELOPER - UnB | FUNAPE | Part-time",
       url: "http://www.spezi.com.br/",
       cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
       cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
@@ -48,7 +69,7 @@ const ExperienceTimeLine = () => {
         <Col>
           <div style={{ display: "flex" }}>
             <Chrono
-              items={ items }
+              items={ items.reverse() }
               mode="VERTICAL"
               slideShow
             />
