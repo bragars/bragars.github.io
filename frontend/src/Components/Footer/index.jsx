@@ -32,7 +32,13 @@ const Footer = () => {
               <img className="Icon" src="/images/linkedinLogo.png" alt="Logo"/> 
             </a>
             <a href="https://github.com/bragars"> 
-              <img className="Icon" src="/images/githubLogo.png"   alt="Logo"/> 
+              <img className="Icon" src="/images/githubLogo.png" alt="Logo"/> 
+            </a>
+            <a href="https://www.youtube.com/@bragacodes/videos"> 
+              <img className="Icon" src="/images/youtubeLogoC.png" alt="Logo"/> 
+            </a>
+            <a href="mailto:bragapedrocodes@gmail.com"> 
+              <img className="Icon" src="/images/emailLogoB.png" alt="Logo"/> 
             </a>
           </div>
         </Row>

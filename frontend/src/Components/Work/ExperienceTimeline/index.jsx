@@ -1,67 +1,52 @@
-import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { Chrono } from "react-chrono";
 import './styles.css';
 
 const ExperienceTimeLine = () => {
-    const items = [
+  const items = [
     {
       title: "Mar 2020 – Jul 2020",
       cardTitle: "FULL STACK DEVELOPER | CJR (Junior Computing Enterprise) | Part Time",
       url: "https://www.cjr.org.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "-Creating REST APIs, sending content by JSON, communicating the logical application with interface of projects. - Creation of interface prototypes using Figma, DB prototypes with DBrowser for SQLite. Skills worked: Ruby on Rails, ReactJs, React Native, PostGres, Postman, Dbeaver",
-    },
-    {
-      title: "Aug 2020 – Nov 2020",
-      cardTitle: "SALES ADVISOR | CJR (Junior Computing Enterprise) | Part Time",
-      url: "http://www.spezi.com.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "- Requirement Analyst and Sales Advisor. - Creation of proposals and contracts. - Meetings with clients making sales funnel. - I sold one project with the value of R$ 30.000, 00. Skills worked: Sales, Ruby on Rails, ReactJs, React Native, PostGres, Postman, Dbeaver",
-    },
-    {
-      title: "Nov 2020– Apr 2021",
-      cardTitle: "FULL STACK DEVELOPER | Spezi Technology | Full-time",
-      url: "http://www.spezi.com.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "- Using Git Flow, managing part of infrastructure, using pipelines, triggers to deploy tags, build images to Dev(Homologation) and Master(Production). -Sustainable testing approach using Rspec, Factories and Jest giving integrity to the project. - Debugging and Problem solving. - Skills worked: Ruby on Rails, VueJs, Docker, OracleDB, Sidekiq, TDD, Sidekiq, Jobs, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers.",
+      cardSubtitle: "Ruby on Rails, ReactJS, PostgreSQL, Postman, and DBeaver.",
+      cardDetailedText: "I contributed to the development of solutions for the SUAS information systems, implementing features in the front-end of Prontuário SUAS using React and in the back-end of Intersuas using Laravel, actively participating in the agile development cycle by collaborating in dailies, sprint reviews, and business rules analysis meetings to ensure alignment between the technical team and the needs of the Ministry of Social Development (MDS).",
     },
     {
       title: "Apr 2021 – Nov 2021",
-      cardTitle: "PROJECT MANAGER | Spezi Technology | Full-time",
+      cardTitle: "FULL STACK DEVELOPER | Spezi Technology | Full-time",
       url: "http://www.spezi.com.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+      cardSubtitle: "Ruby on Rails, VueJs, Docker, OracleDB, Docker, Docker Swarm, Sidekiq, TDD, Jobs, JIRA and Agile methodologies.",
+      cardDetailedText: "I implemented CI/CD pipelines for deploying tags and images, established a sustainable testing approach using RSpec, Factories, and Jest to maintain project integrity, and managed team activities while solving challenges during projects, at one point overseeing two teams. I also created pipelines to deploy code to production and staging servers, and from April 2021 to November, I held the position of Project Manager.",
     },
     {
       title: "Jul 2022 – Dec 2022",
       cardTitle: "ETL DEVELOPER (Exchange) | Via Consulting S.A (Lisboa) | Full-time",
       url: "http://www.spezi.com.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+      cardSubtitle: "Java 8, ETL, documentation and Batch scripting.",
+      cardDetailedText: "I analyzed the existing database structure to determine migration requirements, designed ETL processes to extract data from the legacy database, implemented pipelines using .bat scripts to automate data migration tasks, and managed the execution of ETL processes at scheduled intervals.",
     },
     {
       title: "Feb 2024 – Feb 2025",
       cardTitle: "INTERN DEVELOPER | UE Brasil Tecnologia | Part-time",
       url: "http://www.spezi.com.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+      cardSubtitle: "NestJS, Next.js, Docker, Traefik, GitHub and Jenkins.",
+      cardDetailedText: "I developed and maintained the complete application for managing electronic ankle monitors, using Next.js for the front-end and NestJS for the back-end, and optimized the CI/CD workflow with Jenkins and Docker, automating the development build and deployment process.",
     },
     {
       title: "Feb 2024 – Aug 2025",
       cardTitle: "RESEARCHER DEVELOPER - UnB | FUNAPE | Part-time",
       url: "http://www.spezi.com.br/",
-      cardSubtitle:"Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText: "- Requirement analyst in the meetings with clients, building the Backlog of the Sprint. - Meetings to show what was made in Sprint. - Skills worked: Leadership skills, People Management, Ruby on Rails, VueJs, Docker, OracleDB, managing parts of systems, JIRA, Agile Methodologies, Deployments, building images, pipelines to production and homologation servers, Redis,, New Relic(stack traces).",
+      cardSubtitle: "React, TypeScript, Laravel, Sonar, Swagger and ESlint.",
+      cardDetailedText: "I contributed to the development of solutions for the SUAS information systems, implementing features in the front-end of Prontuário SUAS using React and in the back-end of Intersuas using Laravel. I actively participated in the agile development cycle, collaborating in dailies, sprint reviews, and business rules analysis meetings to ensure alignment between the technical team and the needs of the Ministry of Social Development (MDS).",
     }
   ];
 
-	return (
+  return (
     <Container>
       <Row>
         <div id="Experience">
           <h1 className="Work-Link"> Experience </h1>
-          <a href="https://www.linkedin.com/in/pedrobragar/"> <img className="Icon" src="/images/experienceLogo.png" alt="Logo"/> </a>
+          <a href="https://www.linkedin.com/in/pedrobragar/"> <img className="Icon" src="/images/experienceLogo.png" alt="Logo" /> </a>
         </div>
       </Row>
       <Row className="justify-content-md-center">
@@ -69,7 +54,7 @@ const ExperienceTimeLine = () => {
         <Col>
           <div style={{ display: "flex" }}>
             <Chrono
-              items={ items.reverse() }
+              items={items.reverse()}
               mode="VERTICAL"
               slideShow
             />
@@ -78,7 +63,7 @@ const ExperienceTimeLine = () => {
         <Col xs={1}></Col>
       </Row>
     </Container>
-	);
+  );
 }
 
 export default ExperienceTimeLine;

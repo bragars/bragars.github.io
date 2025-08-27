@@ -51,6 +51,12 @@
     margin-left: 2rem;
 }
 
+.Icon2 {
+    height: 90px;
+    width:  90px;
+    margin-left: 2rem;
+}
+
 .Footer-Links {
     display: flex;
     justify-content: space-around;
